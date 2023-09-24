@@ -2,21 +2,20 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  // https://www.notion.so/alykhan/alykhan-info-316415d64af04c05a65ab5c81491cb78
-  rootNotionPageId: '316415d64af04c05a65ab5c81491cb78',
+  rootNotionPageId: 'e26edaefb4f74c7a856fc1ee618d12b9',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Alykhan\'s Blog',
-  domain: 'alykhan.info',
+  name: 'Boeing 747',
+  domain: 'Boeing-747.com',
   author: 'Alykhan',
-  seotitle: 'Alykhan\'s Personel Blog',
+  seotitle: 'Fan site for the Boeing 747 Queen of the skies',
 
   // open graph metadata (optional)
-  description: 'Alykhan\'s Personel Blog',
+  description: 'Fan site for the Boeing 747 Queen of the skies',
 
   // social usernames (optional)
   twitter: 'alykhan',
@@ -27,8 +26,8 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: 'https://wr8.in/page-icon.png',
-  defaultPageCover: 'https://wr8.in/page-cover.jpg',
+  //defaultPageIcon: 'https://wr8.in/page-icon.png',
+  //defaultPageCover: 'https://wr8.in/page-cover.jpg',
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
@@ -51,19 +50,20 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
+
   navigationStyle: 'custom',
   navigationLinks: [
     {
+      title: 'Family',
+      pageId: '72f1da1577f5465aa8293befdfe8ad61'
+    },
+    {
       title: 'Blog',
-      pageId: '588031c1e65d4dfa9d58e2492c9c1b7e'
+      pageId: '175edd668a894d46b1796cb5d5953c3f'
     },
     {
-      title: 'About',
-      pageId: 'cf2ae3c4839e4e09a1b4a33cc600c409'
-    },
-    {
-      title: 'Contact',
-      pageId: '5f7e562fef814299b10c68c52e920c9a'
+      title: 'Special',
+      pageId: '83f1008842fd4ce9aed453dfbfeae85c'
     }
   ]
 })
