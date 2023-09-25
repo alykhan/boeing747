@@ -114,7 +114,7 @@ font-size: 0.9em;
 }
 
 .notion {
-  --notion-max-width: 1024px;
+  --notion-max-width: 620px;
   --notion-header-height: 54px;
   font-size: 16px;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
@@ -234,7 +234,7 @@ font-size: 0.9em;
 }
 
 .index-page {
-  --notion-max-width: 1024px;
+  --notion-max-width: 620px;
 }
 
 .notion-text {
