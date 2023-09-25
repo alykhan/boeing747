@@ -99,8 +99,8 @@ font-size: 0.9em;
 }
 
 .notion-page {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* hides the title from index page */
@@ -234,7 +234,7 @@ font-size: 0.9em;
 }
 
 .index-page {
-  --notion-max-width: 620px;
+  --notion-max-width: 1024px;
 }
 
 .notion-text {
